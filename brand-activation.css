@@ -1,0 +1,133 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    
+    /* color */
+    --cool-gray: hsl(225, 11%, 59%);
+    --raisin-black-1: hsl(240, 8%, 17%);
+    --white: hsl(0, 0%, 100%);
+
+    /* font-style */
+    --fs-9: 1rem;
+    --fw-500: 500;
+
+    /* Shadow */
+    --shadow-4: 0px 15px 30px hsla(210, 30%, 32%, 0.05);
+
+    /* radius */
+    --radius-8: 8px;
+
+    /* Transition */
+    --transition-1: 0.25s ease;
+}
+
+/*********************************** First Section *******************************/
+
+.services-hero {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    margin: 0;
+    padding: 0;
+}
+
+.service-hero-img img{
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    z-index: -1000;
+    object-fit: cover;
+}
+
+.services-hero-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    font-size: 32px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    z-index: 100;
+}
+
+
+/*********************** Service Display ********************************/
+
+.service-display{
+    margin: 5vh 0 5vh 0;
+}
+
+.disp-heading{
+    text-align: center;
+}
+
+  .gallery-filters{
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .filter-button{
+    font-size: 18px;
+    margin: 0 0.25rem 1rem 0.25rem;
+    padding: 0.25rem 0.725rem;
+    background-color: transparent;
+    border: 1px solid #4f4f4f;
+    border-radius: 2rem;
+    color: #4f4f4f;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  
+  .filter-button.active{
+    border-color: transparent;
+    background-color: #324151;
+    color: #fff;
+  }
+  
+
+.service-img{
+    border-radius: 10px;
+    margin: 0px 0px 5px 5px;
+    background-color: #324151;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    /* background-color: var(--cool-gray); */
+    border: 1px black;
+    filter: grayscale(1);
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.service-img img{
+    width: 80%;
+}
+
+.service-img:hover{
+    position: relative;
+    filter: grayscale(0);
+    transform: scale(1.1);
+    z-index: 5;
+}
+
+.service-container-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-img-container-1{
+    width: 62%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}

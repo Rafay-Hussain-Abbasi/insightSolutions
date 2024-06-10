@@ -1,0 +1,171 @@
+.site-footer {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #820f15;
+  font-size: 15px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.container-footer {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-footer a {
+  color: #737373;
+}
+
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.copyright-text {
+  color: white;
+  margin: 0
+}
+
+.copyright-text a {
+  color: white;
+}
+.social-icons {
+  padding-left: 0;
+  list-style: none
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px
+}
+
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px
+}
+
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear
+}
+
+.social-icons a :hover {
+  color: white;
+}
+
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px
+}
+
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
+
+}
+
+.social-icons a.twitter:hover {
+  background-color: #00aced
+}
+
+.social-icons a.linkedin:hover {
+  background-color: #007bb6
+}
+
+.social-icons a.instagram:hover {
+  background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+}
+
+.social-icons a.behance:hover {
+  background-color: #053eff;
+}
+
+.social-icons a.youtube:hover {
+  background-color: #FF0000;
+}
+
+@media only screen and (max-width: 800px) {
+.row{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-footer{
+  height: 20vh;
+}
+
+.social-icons{
+  margin-bottom: 0px;
+}
+
+.copyright-text{
+  text-align: center;
+}
+
+.col-md-8{
+padding-bottom: 6px;
+}
+
+}
+
+@media screen and (min-width: 2000px) {
+  
+.contact-header h4{
+  font-size: 32px;
+}
+
+.contact-header p,
+.contact-info-content p
+{
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.contact-info-icon {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.con{
+  margin: 0;
+  font-size: 22px;
+}
+
+}
