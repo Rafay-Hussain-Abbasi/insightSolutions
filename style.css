@@ -547,7 +547,7 @@ img {
 .text-content h2,
 .message-heading h1 {
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -568,7 +568,7 @@ img {
 .text-content p,
 .cont-1 p {
   width: 100%;
-  font-size: 18px;
+  font-size: 14px;
   color: white;
   line-height: 1.5;
 }
@@ -766,12 +766,16 @@ img {
 
 .youtube-content p,
 .testimonial-description {
-  font-size: 18px;
+  font-size: 14px;
+}
+
+.main-heading h1{
+  font-size: 24px;
 }
 
 .co-message,
 .ceo-message {
-  font-size: 18px;
+  font-size: 14px;
   text-align: center;
   margin-bottom: 30px;
   margin-top: 30px;
@@ -809,7 +813,8 @@ img {
   .team-header h1,
   .main-heading h1,
   .clients-header h1,
-  .slider-img.active .details p {
+  .slider-img.active .details p,
+  .message-heading h1 {
     font-size: 72px !important;
   }
 
@@ -967,7 +972,7 @@ img {
 }
 
 .cont-1 h1 {
-  font-size: 42px;
+  font-size: 24px;
   text-transform: uppercase;
 }
 
@@ -1376,6 +1381,7 @@ img {
 @media screen and (min-width: 1500px) {
 
   .youtube {
+    height: 90vh;
     padding-bottom: 3%;
   }
 
@@ -1834,6 +1840,7 @@ img {
   margin-top: 20vh;
   text-align: center;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .carousel-wrap {
@@ -2271,7 +2278,7 @@ img {
 
 .testimonial-para {
   font-family: 'Montserrat';
-  font-size: 1rem;
+  font-size: 14px;
   margin: 10px 30px 20px 30px;
   line-height: 4vh;
 }
@@ -2621,7 +2628,7 @@ img {
 
   .containerYoutube {
     width: 100%;
-
+    height: 45%;
   }
 
   .youtube-content h1,
@@ -2632,7 +2639,7 @@ img {
   }
 
   .Team {
-    height: 100vh;
+    height: 90vh;
   }
 
 }
@@ -2641,7 +2648,7 @@ img {
 
   .text-content p,
   .cont-1 p {
-    width: 95%;
+    width: 100%;
   }
 
 }
@@ -2720,13 +2727,12 @@ img {
 
 .slider-container {
   width: 100%;
-  height: 80vh !important;
+  height: 74vh !important;
   padding-top: 0;
 }
 
 .carousel-wrap-team{
   position: relative;
-  left: 4vw;
 }
 
 }
@@ -2814,4 +2820,10 @@ body{
 
 .owl-dots{
   display: none;
+}
+
+@media screen and (min-width: 2000px) {
+  .testimonial{
+    height: 60vh !important;
+  }
 }
