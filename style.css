@@ -2735,6 +2735,14 @@ img {
   position: relative;
 }
 
+.services{
+  height: 54vh !important;
+}
+
+.slider-container{
+  height: 45vh !important;
+}
+
 }
 
 @media screen and (min-height: 2340px) and (min-width: 1080px) {
