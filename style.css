@@ -1057,6 +1057,7 @@ img {
   .slider-container {
     height: 90vh;
     padding-top: 0;
+    height: 50vh !important;
   }
 
 }
@@ -1693,11 +1694,11 @@ img {
 }
 
 .message-container{
-  height: 70vh;
+  height: 88%;
 }
 
 .message {
-  height: 90vh !important;
+  height: 60vh !important;
 }
 
 .creative-img {
@@ -2639,7 +2640,7 @@ img {
   }
 
   .Team {
-    height: 90vh;
+    height: 96vh;
   }
 
 }
