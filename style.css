@@ -2735,12 +2735,24 @@ img {
   position: relative;
 }
 
+.creative-img{
+  width: 36vh !important;
+}
+
 .services{
   height: 60vh !important;
 }
 
 .slider-container{
   height: 52vh !important;
+}
+
+.owl-stage{
+  padding-top: 0 !important;
+}
+
+.owl-item{
+  padding-top: 0 !important;
 }
 
 }
