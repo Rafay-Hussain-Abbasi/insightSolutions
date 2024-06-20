@@ -1022,7 +1022,7 @@ img {
 }
 
 .slider-container {
-  height: 28vh !important;
+  height: 46vh !important;
 }
 
 }
@@ -1086,8 +1086,16 @@ img {
 
   .slider-img.active {
     overflow: hidden;
-    width: 566px !important;
+    width: 1166px !important;
     height: 400px !important;
+  }
+
+  .flickity-viewport{
+    height: 440px !important  ;
+  }
+
+  .slide-inner{
+    height: 40vh !important;
   }
 
   .slider-image .slider-img:nth-child(3),
@@ -1710,7 +1718,7 @@ img {
 }
 
 .message {
-  height: 60vh !important;
+  height: 75vh !important;
 }
 
 .creative-img {
