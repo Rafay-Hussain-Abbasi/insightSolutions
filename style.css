@@ -604,18 +604,13 @@ img {
 
   .creative-section {
     flex-direction: column;
-    height: 85vh;
+    height: 32vh;
     justify-content: center;
   }
 
   .creative-img {
     width: 61%;
     margin-bottom: 15px;
-  }
-
-  .creative-img img {
-    width: 340px;
-    height: 220px;
   }
 
   .caption-heading h1{
@@ -654,6 +649,11 @@ img {
 
   .testimonial-description{
     padding: 0 !important;
+  }
+
+  .image-section {
+    height: 28vh !important;
+    margin-top: -20px !important;
   }
 
   .text-content p,
@@ -695,6 +695,18 @@ img {
 
   .youtube-content p {
     width: 90% !important;
+  }
+
+  .Team {
+    height: 50vh !important;
+  }
+
+  .slide-inner{
+    height: 36vh !important;
+  }
+
+  .carousel-cell{
+    height: 38vh !important;
   }
 
 }
