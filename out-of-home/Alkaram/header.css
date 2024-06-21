@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+body {
+    overflow-x: hidden;
+}
+
+:root {
+    --red-color: #fe1a27;
+}
+
+#headers2{
+    top: 0;
+    position: relative;
+    z-index: 10000;
+    transition: background-color 0.3s ease;
+}
+
+.navBar2 {
+   
+    height: 100px;
+    width: 100vw;
+    background: #324151;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 10000;
+    transition: all ease-in-out 250ms;;
+}
+
+
+#headers {
+    top: 0;
+    position: fixed;
+    z-index: 10000;
+    transition: background-color 0.3s ease;
+}
+
+.navBar {
+   
+    height: 100px;
+    width: 100vw;
+    background: #324151;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    z-index: 10000;
+    transition: all ease-in-out 250ms;;
+}
+
+/*Styling logo*/
+.logo {
+    width: 110px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    filter: brightness(0) invert(1);
+    transition: filter 0.3s ease;
+}
+
+.logo.scrolled {
+    filter: none;
+}
+
+/*Styling Links*/
+.nav-links {
+    color: white;
+    display: flex;
+    list-style: none;
+    width: 80%;
+    padding: 0 1.7vw;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.navLink {
+    text-decoration: none;
+    margin: 0 0.7vw;
+    color: white;
+}
+
+.navLink:hover {
+    text-decoration: none;
+    color: #9599a2;
+}
+
+.navLink.scrolled{
+    color: black;
+    stroke:black;
+}
+.navLink.scrolled:hover{
+    color: var(--red-color);
+    stroke:black;
+}
+.nav-links li {
+    margin-right: 30px;
+    position: relative;
+}
+
+.navLink::before {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: var(--red-color);
+    position: absolute;
+    transition: all ease-in-out 250ms;
+    margin: 21px 0 0 10%;
+}
+
+.navLink:hover::before {
+    width: 80%;
+}
+
+/*Styling Hamburger Icon*/
+.hamburger-lines {
+    width: 30px;
+    height: 3px;
+    background: #f2f5f7;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+.hamburger {
+    display: none;
+}
+.hamburger-lines.scrolled {
+    background: var(--red-color);
+}
+/*Stying for small screens*/
+@media screen and (max-width: 800px) {
+
+    .dropdown-content{
+        min-height: 162px;
+    }
+
+    .navBar {
+        position: fixed;
+        z-index: 3;
+       align-items: normal;
+        justify-content: center;
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+        z-index: 2;
+        transition: all 0.7s ease;
+    }
+
+    .nav-links {
+        justify-content: space-evenly;
+        position: fixed;
+        background: #2e313a;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        clip-path: circle(50px at 90% -20%);
+        -webkit-clip-path: circle(50px at 90% -10%);
+        transition: all 1s ease-out;
+        pointer-events: none;
+    }
+
+    .navLink.scrolled{
+        color: rgb(255, 255, 255);
+        stroke:rgb(255, 255, 255);
+    }
+    .navLink.scrolled:hover{
+        color: var(--red-color);
+        stroke:rgb(255, 255, 255);
+    }
+
+    .nav-links.open {
+        clip-path: circle(1000px at 90% -10%);
+        -webkit-clip-path: circle(1000px at 90% -10%);
+        pointer-events: all;
+    }
+
+    .nav-links li {
+        opacity: 0;
+    }
+
+    .nav-links li:nth-child(1) {
+        transition: all 0.5s ease 0.2s;
+    }
+
+    .nav-links li:nth-child(2) {
+        transition: all 0.5s ease 0.4s;
+    }
+
+    .nav-links li:nth-child(3) {
+        transition: all 0.5s ease 0.6s;
+    }
+
+    .nav-links li:nth-child(4) {
+        transition: all 0.5s ease 0.7s;
+    }
+
+    .nav-links li:nth-child(5) {
+        transition: all 0.5s ease 0.8s;
+    }
+
+    .nav-links li:nth-child(6) {
+        transition: all 0.5s ease 0.9s;
+        margin: 0;
+    }
+
+    .nav-links li:nth-child(7) {
+        transition: all 0.5s ease 1s;
+        margin: 0;
+    }
+
+    li.fade {
+        display: contents;
+        opacity: 1;
+    }
+}
+
+/*Animating Hamburger Icon on Click*/
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+    transition: all 0.7s ease;
+    width: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/**********************************   Drop Down Menu ************************************/
+.dropdown {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.dropdown-content {
+    left: -27px;
+    margin-top: 6px;
+    display: none;
+    position: absolute;
+    background-color: #333;
+    width: 178px;
+    max-height: 150px;
+    border-radius: 0px 10px 7px 10px;
+    overflow-y: scroll;
+    z-index: 1;
+}
+
+.dropdown-content::-webkit-scrollbar {
+    width: 5px;
+    background-color: #555;
+    border-radius: 0px 10px 10px 0px;
+    /* Hide scrollbar for Chrome, Safari, and Opera */
+}
+
+.dropdown-content::-webkit-scrollbar-thumb {
+    background-color: white;
+}
+
+.dropdown-content a {
+    font-size: 12px;
+    color: white;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style dropdown button */
+.dropbtn {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropbtn:hover {
+    background-color: #555;
+}
