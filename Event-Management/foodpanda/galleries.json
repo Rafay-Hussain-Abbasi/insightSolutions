@@ -1,0 +1,170 @@
+[
+      {
+        "name": "foodpanda-event",
+        "images": [
+          {
+            "src": "assets/foodpanda-event/1.jpg",
+            "alt": "foodpanda-event"
+          },
+          {
+            "src": "assets/foodpanda-event/2.jpg",
+            "alt": "foodpanda-event"
+          },
+          {
+            "src": "assets/foodpanda-event/3.jpg",
+            "alt": "foodpanda-event"
+          },
+          {
+            "src": "assets/foodpanda-event/4.jpg",
+            "alt": "foodpanda-event"
+          },
+          {
+            "src": "assets/foodpanda-event/5.jpg",
+            "alt": "foodpanda-event"
+          },
+          {
+            "src": "assets/foodpanda-event/6.jpg",
+            "alt": "foodpanda-event"
+          },
+          {
+            "src": "assets/foodpanda-event/7.jpg",
+            "alt": "foodpanda-event"
+          },
+          {
+            "src": "assets/foodpanda-event/8.jpg",
+            "alt": "foodpanda-event"
+          },
+          {
+            "src": "assets/foodpanda-event/9.jpg",
+            "alt": "foodpanda-event"
+          },
+          {
+            "src": "assets/foodpanda-event/10.jpg",
+            "alt": "foodpanda-event"
+          },
+          {
+            "src": "assets/foodpanda-event/11.jpg",
+            "alt": "foodpanda-event"
+          },
+          {
+            "src": "assets/foodpanda-event/12.jpg",
+            "alt": "foodpanda-event"
+          },
+          {
+            "src": "assets/foodpanda-event/13.jpg",
+            "alt": "foodpanda-event"
+          },
+          {
+            "src": "assets/foodpanda-event/14.jpg",
+            "alt": "foodpanda-event"
+          },
+          {
+            "src": "assets/foodpanda-event/15.jpg",
+            "alt": "foodpanda-event"
+          }
+        ]
+      },
+      {
+        "name": "Daraz3.3",
+        "images": [
+      {
+        "src": "assets/Daraz3.3/1.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/2.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/3.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/4.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/5.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/6.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/7.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/8.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/9.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/10.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/11.jpg",
+        "alt": "Daraz-3-3"
+      }
+    ]
+  },
+  {
+    "name": "Soch-ko",
+    "images": [
+      {
+        "src": "assets/Soch-ko/1.jpg",
+        "alt": "Soch-ko"
+      },
+      {
+        "src": "assets/Soch-ko/2.jpg",
+        "alt": "Soch-ko"
+      },
+      {
+        "src": "assets/Soch-ko/3.jpg",
+        "alt": "Soch-ko"
+      },
+      {
+        "src": "assets/Soch-ko/4.jpg",
+        "alt": "Soch-ko"
+      }
+    ]
+  },
+  {
+    "name": "Food",
+    "images": [
+      {
+        "src": "./images/food/food-1.jpg",
+        "alt": "banana"
+      },
+      {
+        "src": "./images/food/food-2.jpg",
+        "alt": "lemons"
+      },
+      {
+        "src": "./images/food/food-3.jpg",
+        "alt": "cherries"
+      },
+      {
+        "src": "./images/food/food-4.jpg",
+        "alt": "orange"
+      },
+      {
+        "src": "./images/food/food-5.jpg",
+        "alt": "melon"
+      },
+      {
+        "src": "./images/food/food-6.jpg",
+        "alt": "avacado"
+      },
+      {
+        "src": "./images/food/food-7.jpg",
+        "alt": "blueberries"
+      }
+    ]
+  }
+]
