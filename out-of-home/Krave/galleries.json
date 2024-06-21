@@ -1,0 +1,94 @@
+[
+      {
+        "name": "big-billion",
+        "images": [
+          {
+            "src": "assets/big-billion/1.jpg",
+            "alt": "big-billion"
+          },
+          {
+            "src": "assets/big-billion/2.jpg",
+            "alt": "big-billion"
+          },
+          {
+            "src": "assets/big-billion/3.jpg",
+            "alt": "big-billion"
+          },
+          {
+            "src": "assets/big-billion/4.jpg",
+            "alt": "big-billion"
+          }
+        ]
+      },
+      {
+        "name": "backlit",
+        "images": [
+      {
+        "src": "assets/backlit/1.jpg",
+        "alt": "backlit"
+      },
+      {
+        "src": "assets/backlit/2.jpg",
+        "alt": "backlit"
+      },
+      {
+        "src": "assets/backlit/3.jpg",
+        "alt": "backlit"
+      }
+    ]
+  },
+  {
+    "name": "off",
+    "images": [
+      {
+        "src": "assets/off/1.jpg",
+        "alt": "off"
+      },
+      {
+        "src": "assets/off/2.jpg",
+        "alt": "off"
+      },
+      {
+        "src": "assets/off/3.jpg",
+        "alt": "off"
+      },
+      {
+        "src": "assets/off/4.jpg",
+        "alt": "off"
+      }
+    ]
+  },
+  {
+    "name": "Food",
+    "images": [
+      {
+        "src": "./images/food/food-1.jpg",
+        "alt": "banana"
+      },
+      {
+        "src": "./images/food/food-2.jpg",
+        "alt": "lemons"
+      },
+      {
+        "src": "./images/food/food-3.jpg",
+        "alt": "cherries"
+      },
+      {
+        "src": "./images/food/food-4.jpg",
+        "alt": "orange"
+      },
+      {
+        "src": "./images/food/food-5.jpg",
+        "alt": "melon"
+      },
+      {
+        "src": "./images/food/food-6.jpg",
+        "alt": "avacado"
+      },
+      {
+        "src": "./images/food/food-7.jpg",
+        "alt": "blueberries"
+      }
+    ]
+  }
+]
