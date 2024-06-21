@@ -1,0 +1,186 @@
+[
+      {
+        "name": "seller-meetup",
+        "images": [
+          {
+            "src": "assets/seller-meetup/1.jpg",
+            "alt": "seller-meetup"
+          },
+          {
+            "src": "assets/seller-meetup/2.jpg",
+            "alt": "seller-meetup"
+          },
+          {
+            "src": "assets/seller-meetup/3.jpg",
+            "alt": "seller-meetup"
+          },
+          {
+            "src": "assets/seller-meetup/4.jpg",
+            "alt": "seller-meetup"
+          },
+          {
+            "src": "assets/seller-meetup/5.jpg",
+            "alt": "seller-meetup"
+          },
+          {
+            "src": "assets/seller-meetup/6.jpg",
+            "alt": "seller-meetup"
+          },
+          {
+            "src": "assets/seller-meetup/7.jpg",
+            "alt": "seller-meetup"
+          },
+          {
+            "src": "assets/seller-meetup/8.jpg",
+            "alt": "seller-meetup"
+          },
+          {
+            "src": "assets/seller-meetup/9.jpg",
+            "alt": "seller-meetup"
+          },
+          {
+            "src": "assets/seller-meetup/10.jpg",
+            "alt": "seller-meetup"
+          },
+          {
+            "src": "assets/seller-meetup/11.jpg",
+            "alt": "seller-meetup"
+          },
+          {
+            "src": "assets/seller-meetup/12.jpg",
+            "alt": "seller-meetup"
+          },
+          {
+            "src": "assets/seller-meetup/13.jpg",
+            "alt": "seller-meetup"
+          },
+          {
+            "src": "assets/seller-meetup/14.jpg",
+            "alt": "seller-meetup"
+          },
+          {
+            "src": "assets/seller-meetup/15.jpg",
+            "alt": "seller-meetup"
+          },
+          {
+            "src": "assets/seller-meetup/16.jpg",
+            "alt": "seller-meetup"
+          },
+          {
+            "src": "assets/seller-meetup/17.jpg",
+            "alt": "seller-meetup"
+          },
+          {
+            "src": "assets/seller-meetup/18.jpg",
+            "alt": "seller-meetup"
+          },
+          {
+            "src": "assets/seller-meetup/19.jpg",
+            "alt": "seller-meetup"
+          }
+        ]
+      },
+      {
+        "name": "Daraz3.3",
+        "images": [
+      {
+        "src": "assets/Daraz3.3/1.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/2.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/3.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/4.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/5.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/6.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/7.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/8.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/9.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/10.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/11.jpg",
+        "alt": "Daraz-3-3"
+      }
+    ]
+  },
+  {
+    "name": "Soch-ko",
+    "images": [
+      {
+        "src": "assets/Soch-ko/1.jpg",
+        "alt": "Soch-ko"
+      },
+      {
+        "src": "assets/Soch-ko/2.jpg",
+        "alt": "Soch-ko"
+      },
+      {
+        "src": "assets/Soch-ko/3.jpg",
+        "alt": "Soch-ko"
+      },
+      {
+        "src": "assets/Soch-ko/4.jpg",
+        "alt": "Soch-ko"
+      }
+    ]
+  },
+  {
+    "name": "Food",
+    "images": [
+      {
+        "src": "./images/food/food-1.jpg",
+        "alt": "banana"
+      },
+      {
+        "src": "./images/food/food-2.jpg",
+        "alt": "lemons"
+      },
+      {
+        "src": "./images/food/food-3.jpg",
+        "alt": "cherries"
+      },
+      {
+        "src": "./images/food/food-4.jpg",
+        "alt": "orange"
+      },
+      {
+        "src": "./images/food/food-5.jpg",
+        "alt": "melon"
+      },
+      {
+        "src": "./images/food/food-6.jpg",
+        "alt": "avacado"
+      },
+      {
+        "src": "./images/food/food-7.jpg",
+        "alt": "blueberries"
+      }
+    ]
+  }
+]
