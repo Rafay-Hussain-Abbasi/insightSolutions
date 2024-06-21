@@ -1,0 +1,220 @@
+.footer {
+    background-color: #451515;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 65vh;
+    border-bottom: 1px solid #fdab23;
+}
+
+.footer h4 {
+    margin-bottom: 15px;
+}
+
+.footer h6 {
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.contact-us p {
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.contact-us {
+    width: 20%;
+}
+
+.quick-links ul,
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links ul li a {
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.quick-links ul li {
+    padding-bottom: 16px;
+}
+
+.social-media ul li:hover .fab {
+    color: #fdab23;
+}
+
+.social-media ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.call p {
+    text-align: left;
+}
+
+/* .contact-us p{
+    padding-bottom: 10px;
+} */
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+
+.footer{
+    height: 112vh;
+    flex-direction: column;
+}
+    
+.quick-links{
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.quick-links ul, .social-media ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-us {
+    width: 100%;
+    text-align: center;
+}
+
+.contact-us p{
+    text-align: center;
+}
+
+.footer h6 {
+    width: 100%;
+}
+
+.call p {
+    text-align: center;
+}
+
+.social-media ul{
+    justify-content: space-evenly;
+}
+
+.fab {
+    color: white;
+}
+
+iframe{
+    width: 300px;
+    height: 230px;
+}
+
+}
+
+
+@media screen and (min-width: 650px) {
+
+.fab {
+    z-index: 5;
+    color: white;
+    font-size: 18px;
+}
+
+.social-media {
+    width: 36%;
+}
+
+.address h6,
+.call h6 {
+    margin-bottom: 0px;
+}
+
+.footer h4 {
+    font-size: 12px;
+    }
+    
+    .quick-links ul li a {
+      font-size: 10px;
+    }
+    
+    .contact-us p {
+      font-size: 10px;
+      margin-bottom: 13px;
+    }
+    
+    .address h6, .call h6 {
+      font-size: 11px;
+    }
+    
+    .fab {
+    font-size: 16px;
+    }
+
+    footer p, button {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+
+    .footer h4 {
+        font-size: 16px;
+    }
+
+    .quick-links ul li {
+        padding-bottom: 12px;
+    }
+
+    .quick-links ul li a {
+        font-size: 12px;
+    }
+    
+}
+
+@media screen and (min-width: 1500px) {
+
+    .footer h4 {
+        font-size: 38px;
+    }
+
+    .quick-links ul li {
+        padding-bottom: 32px;
+    }
+
+    .quick-links ul li a {
+        font-size: 28px;
+    }
+
+    .address h6,
+    .call h6 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .contact-us p {
+        font-size: 26px;
+        margin-bottom: 40px;
+    }
+
+    .fab {
+        font-size: 24px;
+    }
+
+    iframe {
+        height: 500px;
+        width: 700px;
+    }
+
+    footer p,
+    button {
+        font-size: 26px;
+    }
+
+    footer img {
+        width: 86px;
+    }
+}
+
+
