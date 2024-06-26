@@ -55,7 +55,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  top: calc(65vh - 80px);
+  top: calc(65vh - 70px);
 }
 .loader:before, .loader:after{
   width: inherit;
