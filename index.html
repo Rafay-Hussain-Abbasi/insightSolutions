@@ -17,6 +17,15 @@
 
 <body>
 
+  <!-- Pre-loader -->
+
+  <div class="loader_bg">
+    <img src="assets/logo-1.png" alt="">
+    <div class="loader">
+      <img src="assets/Loader.png" alt="">
+    </div>
+</div>
+
   <!------------------ Header ------------------>
 
   <header id="headers2">
@@ -50,7 +59,7 @@
                       <a href="https://sindhpolice.gov.pk" target="_blank">Sindh Police FM</a>
                       <a href="Pinnacle/index.html" target="_blank">Pinnacle Events</a>
                       <a href="https://insighttech.pk" target="_blank">Insight Tech</a>
-			<a href="films/index.html" target="_blank">Insight Films</a>
+                      <a href="films/index.html" target="_blank">Insight Films</a>
                   </div>
               </div>
           </li>
@@ -213,7 +222,7 @@
 
           <h1 class="heading" style="top: 17%;" >Event Management</h1>
           <div class="details">
-            <a href="Event-management.html">
+            <a href="Event-Management.html">
               <h2>Event Management</h2>
             </a>
           </div>
@@ -235,7 +244,9 @@
             <img src="assets/Services/activation.webp" alt="1">
           </div>
           <div class="service-cont">
+            <a href="brand-activation.html">
             <h2>Activation</h2>
+          </a>
           </div>
         </div>
         <div class="service-2 width">
@@ -243,7 +254,9 @@
             <img src="assets/Services/production.webp" alt="2">
           </div>
           <div class="service-cont">
+            <a href="production.html">
             <h2>Production</h2>
+            </a>
           </div>
         </div>
       </div>
@@ -253,7 +266,9 @@
             <img src="assets/Services/innovation.webp" alt="3">
           </div>
           <div class="service-cont">
+            <a href="innovation.html">
             <h2>Innovation</h2>
+          </a>
           </div>
         </div>
         <div class="service-4 width">
@@ -261,7 +276,9 @@
             <img src="assets/Services/digital.webp" alt="4">
           </div>
           <div class="service-cont">
+            <a href="Digital.html">
             <h2>Digital</h2>
+          </a>
           </div>
         </div>
       </div>
@@ -271,7 +288,9 @@
             <img src="assets/Services/fabrication.webp" alt="5">
           </div>
           <div class="service-cont">
+            <a href="fabrication.html">
             <h2>Fabrication</h2>
+          </a>
           </div>
         </div>
         <div class="service-6 width">
@@ -281,18 +300,21 @@
             </a>
           </div>
           <div class="service-cont">
+            <a href="out-of-home.html">
             <h2>Out of Home</h2>
+          </a>
           </div>
       </div>
     </div>
     <div class="service-mob">
       <div class="service-7 width">
         <div class="service-7-img mob-img">
-          <a href="event-management.html">
+          <a href="Event-Management.html">
             <img src="assets/Services/event-management.webp" alt="7">
           </a>
         </div>
         <div class="service-cont">
+          <a href="event-management.html"></a>
           <h2>Event Management</h2>
         </div>
     </div>
@@ -904,6 +926,12 @@
       })
     })
   </script>
+
+<script>
+  setTimeout(function(){
+      $('.loader_bg').fadeToggle();
+  }, 2000);
+</script>
 
 </body>
 
