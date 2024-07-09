@@ -30,6 +30,7 @@
 }
 
 .image-container {
+  padding-top: 10px;
   min-height: 34vh;
   display: flex;
   flex-direction: column;
@@ -106,15 +107,6 @@
 
 @media screen and (max-width: 1400px) {
 
-  .daraz-hero {
-    height: 50vh;
-  }
-
-  .event {
-    top: 0px;
-    height: 86vh;
-  }
-
   .modal {
     width: 60%;
   }
@@ -122,10 +114,6 @@
 }
 
 @media screen and (min-width:798px) and (max-width: 1400px) {
-
-  .event{
-    height: 122vh;
-  }
 
   .container{
     top: 40%;
