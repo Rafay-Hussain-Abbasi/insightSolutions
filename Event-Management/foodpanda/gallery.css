@@ -40,6 +40,11 @@
   overflow: hidden;
 }
 
+.daraz-img-container{
+    width: 100%;
+    height: 100%;
+}
+
 .daraz-img-container img {
   width: 100%;
   position: relative;
