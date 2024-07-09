@@ -1,0 +1,186 @@
+[
+      {
+        "name": "sunridge",
+        "images": [
+          {
+            "src": "assets/sunridge/1.jpg",
+            "alt": "sunridge"
+          },
+          {
+            "src": "assets/sunridge/2.jpg",
+            "alt": "sunridge"
+          },
+          {
+            "src": "assets/sunridge/3.jpg",
+            "alt": "sunridge"
+          },
+          {
+            "src": "assets/sunridge/4.jpg",
+            "alt": "sunridge"
+          },
+          {
+            "src": "assets/sunridge/5.jpg",
+            "alt": "sunridge"
+          },
+          {
+            "src": "assets/sunridge/6.jpg",
+            "alt": "sunridge"
+          },
+          {
+            "src": "assets/sunridge/7.jpg",
+            "alt": "sunridge"
+          },
+          {
+            "src": "assets/sunridge/8.jpg",
+            "alt": "sunridge"
+          },
+          {
+            "src": "assets/sunridge/9.jpg",
+            "alt": "sunridge"
+          },
+          {
+            "src": "assets/sunridge/10.jpg",
+            "alt": "sunridge"
+          },
+          {
+            "src": "assets/sunridge/11.jpg",
+            "alt": "sunridge"
+          },
+          {
+            "src": "assets/sunridge/12.jpg",
+            "alt": "sunridge"
+          },
+          {
+            "src": "assets/sunridge/13.jpg",
+            "alt": "sunridge"
+          },
+          {
+            "src": "assets/sunridge/14.jpg",
+            "alt": "sunridge"
+          },
+          {
+            "src": "assets/sunridge/15.jpg",
+            "alt": "sunridge"
+          },
+          {
+            "src": "assets/sunridge/16.jpg",
+            "alt": "sunridge"
+          },
+          {
+            "src": "assets/sunridge/17.jpg",
+            "alt": "sunridge"
+          },
+          {
+            "src": "assets/sunridge/18.jpg",
+            "alt": "sunridge"
+          },
+          {
+            "src": "assets/sunridge/19.jpg",
+            "alt": "sunridge"
+          }
+        ]
+      },
+      {
+        "name": "Daraz3.3",
+        "images": [
+      {
+        "src": "assets/Daraz3.3/1.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/2.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/3.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/4.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/5.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/6.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/7.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/8.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/9.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/10.jpg",
+        "alt": "Daraz-3-3"
+      },
+      {
+        "src": "assets/Daraz3.3/11.jpg",
+        "alt": "Daraz-3-3"
+      }
+    ]
+  },
+  {
+    "name": "Soch-ko",
+    "images": [
+      {
+        "src": "assets/Soch-ko/1.jpg",
+        "alt": "Soch-ko"
+      },
+      {
+        "src": "assets/Soch-ko/2.jpg",
+        "alt": "Soch-ko"
+      },
+      {
+        "src": "assets/Soch-ko/3.jpg",
+        "alt": "Soch-ko"
+      },
+      {
+        "src": "assets/Soch-ko/4.jpg",
+        "alt": "Soch-ko"
+      }
+    ]
+  },
+  {
+    "name": "Food",
+    "images": [
+      {
+        "src": "./images/food/food-1.jpg",
+        "alt": "banana"
+      },
+      {
+        "src": "./images/food/food-2.jpg",
+        "alt": "lemons"
+      },
+      {
+        "src": "./images/food/food-3.jpg",
+        "alt": "cherries"
+      },
+      {
+        "src": "./images/food/food-4.jpg",
+        "alt": "orange"
+      },
+      {
+        "src": "./images/food/food-5.jpg",
+        "alt": "melon"
+      },
+      {
+        "src": "./images/food/food-6.jpg",
+        "alt": "avacado"
+      },
+      {
+        "src": "./images/food/food-7.jpg",
+        "alt": "blueberries"
+      }
+    ]
+  }
+]
