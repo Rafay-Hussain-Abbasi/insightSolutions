@@ -1,185 +1,118 @@
 [
       {
-        "name": "seller-meetup",
+        "name": "Faisalabad",
         "images": [
           {
-            "src": "assets/seller-meetup/1.jpg",
+            "src": "assets/faisalabad/1.jpg",
             "alt": "seller-meetup"
           },
           {
-            "src": "assets/seller-meetup/2.jpg",
+            "src": "assets/faisalabad/2.jpg",
             "alt": "seller-meetup"
           },
           {
-            "src": "assets/seller-meetup/3.jpg",
+            "src": "assets/faisalabad/3.jpg",
             "alt": "seller-meetup"
           },
           {
-            "src": "assets/seller-meetup/4.jpg",
+            "src": "assets/faisalabad/4.jpg",
             "alt": "seller-meetup"
           },
           {
-            "src": "assets/seller-meetup/5.jpg",
-            "alt": "seller-meetup"
-          },
-          {
-            "src": "assets/seller-meetup/6.jpg",
-            "alt": "seller-meetup"
-          },
-          {
-            "src": "assets/seller-meetup/7.jpg",
-            "alt": "seller-meetup"
-          },
-          {
-            "src": "assets/seller-meetup/8.jpg",
-            "alt": "seller-meetup"
-          },
-          {
-            "src": "assets/seller-meetup/9.jpg",
-            "alt": "seller-meetup"
-          },
-          {
-            "src": "assets/seller-meetup/10.jpg",
-            "alt": "seller-meetup"
-          },
-          {
-            "src": "assets/seller-meetup/11.jpg",
-            "alt": "seller-meetup"
-          },
-          {
-            "src": "assets/seller-meetup/12.jpg",
-            "alt": "seller-meetup"
-          },
-          {
-            "src": "assets/seller-meetup/13.jpg",
-            "alt": "seller-meetup"
-          },
-          {
-            "src": "assets/seller-meetup/14.jpg",
-            "alt": "seller-meetup"
-          },
-          {
-            "src": "assets/seller-meetup/15.jpg",
-            "alt": "seller-meetup"
-          },
-          {
-            "src": "assets/seller-meetup/16.jpg",
-            "alt": "seller-meetup"
-          },
-          {
-            "src": "assets/seller-meetup/17.jpg",
-            "alt": "seller-meetup"
-          },
-          {
-            "src": "assets/seller-meetup/18.jpg",
-            "alt": "seller-meetup"
-          },
-          {
-            "src": "assets/seller-meetup/19.jpg",
+            "src": "assets/faisalabad/5.jpg",
             "alt": "seller-meetup"
           }
         ]
       },
       {
-        "name": "Daraz3.3",
+        "name": "islamabad",
         "images": [
       {
-        "src": "assets/Daraz3.3/1.jpg",
-        "alt": "Daraz-3-3"
+        "src": "assets/islamabad/8.jpg",
+        "alt": "islamabad"
       },
       {
-        "src": "assets/Daraz3.3/2.jpg",
-        "alt": "Daraz-3-3"
+        "src": "assets/islamabad/9.jpg",
+        "alt": "islamabad"
       },
       {
-        "src": "assets/Daraz3.3/3.jpg",
-        "alt": "Daraz-3-3"
+        "src": "assets/islamabad/10.jpg",
+        "alt": "islamabad"
       },
       {
-        "src": "assets/Daraz3.3/4.jpg",
-        "alt": "Daraz-3-3"
-      },
-      {
-        "src": "assets/Daraz3.3/5.jpg",
-        "alt": "Daraz-3-3"
-      },
-      {
-        "src": "assets/Daraz3.3/6.jpg",
-        "alt": "Daraz-3-3"
-      },
-      {
-        "src": "assets/Daraz3.3/7.jpg",
-        "alt": "Daraz-3-3"
-      },
-      {
-        "src": "assets/Daraz3.3/8.jpg",
-        "alt": "Daraz-3-3"
-      },
-      {
-        "src": "assets/Daraz3.3/9.jpg",
-        "alt": "Daraz-3-3"
-      },
-      {
-        "src": "assets/Daraz3.3/10.jpg",
-        "alt": "Daraz-3-3"
-      },
-      {
-        "src": "assets/Daraz3.3/11.jpg",
-        "alt": "Daraz-3-3"
+        "src": "assets/islamabad/11.jpg",
+        "alt": "islamabad"
       }
     ]
   },
   {
-    "name": "Soch-ko",
+    "name": "karachi",
     "images": [
       {
-        "src": "assets/Soch-ko/1.jpg",
-        "alt": "Soch-ko"
+        "src": "assets/karachi/2.jpg",
+        "alt": "karachi"
       },
       {
-        "src": "assets/Soch-ko/2.jpg",
-        "alt": "Soch-ko"
+        "src": "assets/karachi/3.jpg",
+        "alt": "karachi"
       },
       {
-        "src": "assets/Soch-ko/3.jpg",
-        "alt": "Soch-ko"
+        "src": "assets/karachi/4.jpg",
+        "alt": "karachi"
       },
       {
-        "src": "assets/Soch-ko/4.jpg",
-        "alt": "Soch-ko"
+        "src": "assets/karachi/5.jpg",
+        "alt": "karachi"
       }
     ]
   },
   {
-    "name": "Food",
+    "name": "Multan",
     "images": [
       {
-        "src": "./images/food/food-1.jpg",
-        "alt": "banana"
+        "src": "assets/Multan/12.jpg",
+        "alt": "Multan"
       },
       {
-        "src": "./images/food/food-2.jpg",
-        "alt": "lemons"
+        "src": "assets/Multan/13.jpg",
+        "alt": "Multan"
       },
       {
-        "src": "./images/food/food-3.jpg",
-        "alt": "cherries"
+        "src": "assets/Multan/14.jpg",
+        "alt": "Multan"
       },
       {
-        "src": "./images/food/food-4.jpg",
-        "alt": "orange"
+        "src": "assets/Multan/15.jpg",
+        "alt": "Multan"
+      }
+    ]
+  },
+  {
+    "name": "peshawar",
+    "images": [
+      {
+        "src": "assets/peshawar/1.jpg",
+        "alt": "peshawar"
       },
       {
-        "src": "./images/food/food-5.jpg",
-        "alt": "melon"
+        "src": "assets/peshawar/16.jpg",
+        "alt": "peshawar"
       },
       {
-        "src": "./images/food/food-6.jpg",
-        "alt": "avacado"
+        "src": "assets/peshawar/18.jpg",
+        "alt": "peshawar"
       },
       {
-        "src": "./images/food/food-7.jpg",
-        "alt": "blueberries"
+        "src": "assets/peshawar/19.jpg",
+        "alt": "peshawar"
+      },
+      {
+        "src": "assets/peshawar/20.jpg",
+        "alt": "peshawar"
+      },
+      {
+        "src": "assets/peshawar/21.jpg",
+        "alt": "peshawar"
       }
     ]
   }
