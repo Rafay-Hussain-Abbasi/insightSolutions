@@ -23,13 +23,14 @@
 
 .container {
   position: relative;
-  top: 16vh;
+  top: 4vh;
   max-width: 100%;
-  min-height: 52vh;
+  min-height: 46vh;
   margin: auto;
 }
 
 .image-container {
+  padding-top: 10px;
   min-height: 34vh;
   display: flex;
   flex-direction: column;
@@ -37,6 +38,11 @@
   /* flex-wrap: wrap; */
   justify-content: center;
   overflow: hidden;
+}
+
+.daraz-img-container img {
+  width: 100%;
+  position: relative;
 }
 
 .image-item {
@@ -101,15 +107,6 @@
 
 @media screen and (max-width: 1400px) {
 
-  .daraz-hero {
-    height: 50vh;
-  }
-
-  .event {
-    top: 0px;
-    height: 86vh;
-  }
-
   .modal {
     width: 60%;
   }
@@ -117,10 +114,6 @@
 }
 
 @media screen and (min-width:798px) and (max-width: 1400px) {
-
-  .event{
-    height: 122vh;
-  }
 
   .container{
     top: 40%;
@@ -191,3 +184,7 @@
 
 }
 
+.modal__image{
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+}
