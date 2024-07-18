@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* Pre Loader */
+
+.loader_bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 999999;
+  background: #324151;
+  width: 100%;
+  height: 100%;
+}
+
+.logoImage {
+  width: 253px;
+  height: 131px;
+}
+
+.loader {
+  border: 0 soild transparent;
+  border-radius: 50%;
+  width: 150px !important;
+  height: 150px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: calc(65vh - 70px);
+}
+
+.loader img {
+  width: 30px;
+  height: 30px;
+}
+
+.loader-image {
+  width: 100%;
+  height: auto;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Blog Start */
+
+.blogSection {
+  padding-top: 20px;
+}
+
+.blog-1-img img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.blog-header {
+  text-align: center;
+}
+
+.blog-container {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.active-blog {
+  width: 50%;
+}
+
+.img-container {
+  width: 100%;
+  height: 50vh;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.img-container img:hover {
+  transform: scale(1.1);
+}
+
+.heading-container {
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 10px 0px;
+  width: 100%;
+  font-size: 30px;
+}
+
+.desc-container {
+  width: 100%;
+}
+
+.sub-heading {
+  padding: 5px 0px;
+  font-size: 18px;
+  color: #324151;
+}
+
+.content-para {
+  font-size: 16px;
+}
+
+.otherBlogs {
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.blog {
+  width: 100%;
+}
+
+.other-img-container {
+  width: 100%;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.other-img-container img {
+  border-radius: 30px;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.other-img-container img:hover {
+  transform: scale(1.1);
+}
+
+.other-heading-container {
+  width: 100%;
+}
+
+.other-img-container img {
+  width: 100%;
+}
+
+.blog {
+  padding-bottom: 30px;
+}
+
+.vertical-divider {
+  width: 2px;
+  background-color: #3241512d;
+  height: 130vh;
+}
+
+.read-more-trigger_opened,
+.read-more-trigger_closed:hover {
+  cursor: pointer;
+  color: #324151;
+}
+
+.read-more-target,
+.read-more-trigger_opened {
+  display: none;
+}
+
+.read-more-state:checked~.read-more-wrap .read-more-target,
+.read-more-state:checked~.read-more-trigger_opened {
+  display: block;
+}
+
+.read-more-state:checked~.read-more-trigger_closed {
+  display: none;
+}
+
+.blogdy {
+  height: 100vh; /* Each blog section takes the full viewport height */
+  padding: 20px;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+.blogdy.active {
+  background-color: #f0f8ff; /* Change the background color when active */
+}
+
+/* RESPONSIVE SECTION  */
+
+@media screen and (min-width: 280px) and (max-width: 700px) {
+
+
+  .blog-container {
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .active-blog {
+    width: 100%;
+    text-align: center;
+  }
+
+  .otherBlogs {
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .vertical-divider {
+    display: none;
+  }
+
+  .img-container {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .heading-container {
+    font-size: 18px;
+  }
+
+  .content-para {
+    font-size: 10px;
+  }
+
+  .sub-heading {
+    font-size: 16px;
+  }
+
+}
+
+@media screen and (min-width: 2000px) {
+
+  .blog-container{
+    padding-top: 8vh;
+  }
+
+  .blog-header {
+    font-size: 72px;
+  }
+
+  .heading-container {
+    font-size: 72px;
+  }
+
+  .content-para {
+    font-size: 28px;
+  }
+
+  .sub-heading {
+    font-size: 42px;
+  }
+
+  .read-more-trigger_opened,
+  .read-more-trigger_closed {
+    font-size: 28px;
+    padding-bottom: 10px;
+  }
+
+.other-heading-container{
+  font-size: 42px;
+}
+
+}
