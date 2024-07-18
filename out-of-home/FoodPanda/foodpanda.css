@@ -15,10 +15,15 @@
 /* DARAZ HERO SECTION */
 .daraz-hero{
     position: relative;
-    top: 12vh;
     width: 100%;
-    height: 70vh;
+    height: 100vh;
 }
+
+.daraz-img-container{
+    width: 100%;
+    height: 100%;
+}
+
 .daraz-img-container img{
     width: 100%;
     height: 100%;
@@ -72,12 +77,6 @@
 
 .events-img-container-2{
     display: flex;
-}
-
-.event{
-    position: relative;
-    top: 34px;
-    height: 90vh;
 }
 
 .image-item{
