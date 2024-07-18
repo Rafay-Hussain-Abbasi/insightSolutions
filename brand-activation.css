@@ -2,26 +2,6 @@ body{
     padding: 0;
     margin: 0;
 }
-:root{
-    
-    /* color */
-    --cool-gray: hsl(225, 11%, 59%);
-    --raisin-black-1: hsl(240, 8%, 17%);
-    --white: hsl(0, 0%, 100%);
-
-    /* font-style */
-    --fs-9: 1rem;
-    --fw-500: 500;
-
-    /* Shadow */
-    --shadow-4: 0px 15px 30px hsla(210, 30%, 32%, 0.05);
-
-    /* radius */
-    --radius-8: 8px;
-
-    /* Transition */
-    --transition-1: 0.25s ease;
-}
 
 /*********************************** First Section *******************************/
 
@@ -46,7 +26,9 @@ body{
     justify-content: center;
     align-items: center;
     height: 70vh;
-    font-size: 32px;
+    background: #32415166;
+    text-align: center;
+    font-size: 24px;
     color: white;
     text-transform: uppercase;
     text-decoration: none;
@@ -130,4 +112,29 @@ body{
     justify-content: center;
     align-items: center;
     align-content: center;
+}
+
+@media screen and (min-width: 2000px) {
+    
+    .services-hero-heading{
+        font-size: 82px;
+    }
+
+    .filter-button{
+        font-size: 28px;
+    }
+
+    .service-container-2{
+        padding-top: 30px;
+    }
+
+    .service-img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .copyright-text{
+        font-size: 28px;
+    }
+
 }
