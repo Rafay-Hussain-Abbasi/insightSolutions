@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    
+}
+:root {
+    --red-color: #fe1a27;
+}
+
+
+/* HEADER CSS */
+
+/* HEADER CSS ENDS */
+
+/* DARAZ HERO SECTION */
+
+.daraz-hero{
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .daraz-img-container{
+    width: 100%;
+    height: 92%;
+  }
+
+.daraz-hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.daraz-img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* DARAZ HERO SECTION ENDS */
+
+/* EVENTS SECTION */
+
+.projects-header{
+    text-align: center;
+    padding: 20px 0px 30px 0px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.image-container-1{
+    width: 240px;
+    height: 240px;
+}
+
+.image-container-1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.image-container-1 img:hover{
+   transform: scale(1.1);
+}
