@@ -1,0 +1,189 @@
+*,
+*::after,
+*::before {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+:root {
+  --hue: 206;
+  --bkg: var(--hue) 50% 96%;
+  --text: var(--hue) 70% 9%;
+  --dark: var(--hue) 70% 3%;
+}
+
+/* body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(hsl(var(--text)), hsl(var(--dark)));
+} */
+
+.container {
+  position: relative;
+  top: 4vh;
+  max-width: 100%;
+  min-height: 46vh;
+  margin: auto;
+}
+
+.image-container {
+  min-height: 34vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  overflow: hidden;
+}
+
+.daraz-img-container img {
+  width: 100%;
+  position: relative;
+}
+
+.image-item {
+  margin: 0px 0px 5px 5px;
+  /* flex: 1 0 28%; */
+  max-width: 240px;
+  /* min-width: 200px; */
+  cursor: zoom-in;
+}
+
+.image-item img {
+  border-radius: 10px;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  transition: transform 250ms cubic-bezier(0.79, 0.25, 0, 1.07), filter 0.7s ease;
+  filter: grayscale(1);
+}
+
+.image-item:is(:hover, :focus) img {
+  transform: scale(1.03);
+  filter: grayscale(0);
+}
+
+.modal-container.active {
+  top: 12%;
+}
+
+.modal-heading {
+
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+@media screen and (min-width: 1600px) {
+  .image-item img {
+    width: 360px;
+    height: 360px;
+    margin: 0px 0px 10px 10px;
+  }
+
+  .image-item {
+    display: contents;
+  }
+
+  .modal-heading {
+
+    font-size: 38px;
+    margin-bottom: 30px;
+
+  }
+
+  .daraz-hero {
+    top: 8vh;
+  }
+
+  .event {
+    top: 38px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+
+  .modal {
+    width: 60%;
+  }
+
+}
+
+@media screen and (min-width:798px) and (max-width: 1400px) {
+
+  .container{
+    top: 40%;
+  }
+
+}
+
+@media screen and (min-width:759px) and (max-width: 799px) {
+
+  .daraz-hero {
+    height: 48vh;
+  }
+
+  .event {
+    top: 0;
+    height: 94vh;
+  }
+
+}
+
+@media screen and (min-width:378px) and (max-width: 758px) {
+
+  .daraz-img-container img {
+    height: 55vh;
+  }
+
+  .event {
+    top: 0;
+    height: 130vh;
+  }
+
+  .container {
+    top: 6vh;
+    max-width: 380px
+  }
+
+}
+
+@media screen and (min-width: 200px) and (max-width: 377px) {
+
+  .daraz-img-container img {
+    height: 45vh;
+  }
+
+  .daraz-hero{
+    top: 16vh;
+  }
+
+  .event {
+    top: 0;
+    height: 110vh;
+  }
+
+  .container{
+    top: 0;
+  }
+
+  
+  .div-width {
+    width: 262px;
+}
+
+.image-item img {
+  border-radius: 10px;
+  width: 120px;
+  height: 120px;
+}
+
+}
+
+.modal__image{
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+}
