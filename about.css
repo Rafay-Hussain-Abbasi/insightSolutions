@@ -16,7 +16,10 @@
     --darkText: #8388B4;
 }
 
-.loader_bg{
+
+/* Pre Loader */
+
+.loader_bg {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,11 +30,12 @@
     height: 100%;
   }
   
-  .loader_bg img{
-    width: 20%;
-    height: 20%;
+  .logoImage {
+    width: 253px;
+    height: 131px;
   }
-  .loader{
+  
+  .loader {
     border: 0 soild transparent;
     border-radius: 50%;
     width: 150px !important;
@@ -42,32 +46,28 @@
     align-items: center;
     top: calc(65vh - 70px);
   }
-  .loader:before, .loader:after{
-    width: inherit;
-    height: inherit;
-    position: absolute;
-    top: 0;
-    left: 0;
-    animation: loader 2s linear infinite;
-    opacity: 0;
-  }
-  .loader:before{
-    animation-delay: .5s;
-  }
-  @keyframes loader{
-    0%{
-        transform: scale(0);
-        opacity: 0;
-    }
-    50%{
-        opacity: 1;
-    }
-    100%{
-        transform: scale(1);
-        opacity: 0;
-    }
+  
+  .loader img {
+    width: 30px;
+    height: 30px;
   }
   
+  .loader-image {
+    width: 100%;
+    height: auto;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+    
 
 
 
@@ -86,19 +86,25 @@
     height: 100%;
     z-index: -1000;
     object-fit: cover;
+    position: absolute;
 }
 
 .about-us-hero-heading {
+    width: 100%;
+    height: 100%;
+    position: absolute;
     text-align: center;
-    transform: translateY(-24rem);
-    position: relative;
     font-size: 32px;
     color: white;
     text-transform: uppercase;
     text-decoration: none;
     z-index: 100;
+    background-color: #32415166;
 }
 
+.about-us-hero-heading h1{
+    transform: translateY(40vh);
+}
 
 /******************************* Second Section **********************************/
 
@@ -106,7 +112,7 @@
     padding: 20px 0px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 /* 
@@ -642,7 +648,6 @@
     font-size: 18px;
     margin: 0;
     padding: 10px;
-    font-family: 'Open Sans';
 }
 
 
@@ -794,12 +799,11 @@
 
 @media screen and (min-width: 300px) and (max-width: 1000px) {
 
-    .about-row{
+    .about-row {
         flex-direction: column;
     }
 
     .about-us-hero-heading {
-        transform: translateY(-22rem);
         font-size: 18px;
     }
 
@@ -862,7 +866,6 @@
 @media screen and (min-width: 801px) {
 
     .about-us-hero-heading {
-        transform: translateY(-22rem);
         font-size: 30px !important;
     }
 
@@ -898,7 +901,53 @@
     }
 }
 
-@media screen and (min-width: 2000px) {
+
+@media screen and (min-width: 340px) and (min-height: 800px) {
+    .Team{
+        height: 60vh;
+    }
+
+    .profile-card{
+        left: 30px;
+    }
+}
+
+/* @media screen and (min-width: 300px) and (min-height: 880px) {
+
+    .profile-card{
+        left: 10px !important;
+    }
+} */
+
+@media screen and (min-width: 700px) and (min-height: 1000px) {
+    
+    .Team{
+        height: 50vh !important;
+    }
+
+    .profile-card{
+        left: -10px !important;
+        top: 20px !important;
+    }
+
+}
+
+@media screen and (min-width: 500px) and (min-height: 700px) {
+
+    .profile-card{
+        left: 12vw;
+    }
+}
+
+@media screen and (min-width: 1200px) and (min-height: 800px) {
+
+    .profile-card{
+        left: 2vw;
+    }
+
+}
+
+@media screen and (min-width: 2000px) and (min-height: 1100px) {
 
     .about-container {
         position: relative;
@@ -907,7 +956,6 @@
     }
 
     .about-us-hero-heading {
-        transform: translateY(-42rem);
         font-size: 82px !important;
     }
 
@@ -916,6 +964,7 @@
     .projectFactsWrap .item p.number,
     .team-header {
         font-size: 72px !important;
+        padding: 30px 0px;
     }
 
     .sec-title .title,
@@ -928,7 +977,7 @@
     }
 
     .about-section .image-column .inner-column .author-desc h2,
-    .copyright-text{
+    .copyright-text {
         font-size: 28px !important;
     }
 
@@ -941,7 +990,32 @@
     }
 
     .Team {
-        height: 58vh;
+        height: 70vh !important;
+    }
+
+    .owl-stage {
+        left: 100px;
+    }
+
+    .profile-card {
+        width: 280px;
+        height: 280px;
+    }
+
+    .profile-card:hover {
+        height: 360px;
+    }
+
+    .caption-team h3{
+        font-size: 28px;
+    }
+
+    .caption-team p{
+        font-size: 26px;
+    }
+
+    .about-section{
+        height: 145vh !important;
     }
 
 }
