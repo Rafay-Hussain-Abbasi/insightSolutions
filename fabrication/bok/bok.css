@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+:root {
+    --red-color: #fe1a27;
+}
+
+
+/* HEADER CSS */
+
+/* HEADER CSS ENDS */
+
+/* DARAZ HERO SECTION */
+.daraz-hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.daraz-img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* DARAZ HERO SECTION ENDS */
+
+/* EVENTS SECTION */
+.events-display{
+    margin-top: 12%;
+}
+
+.events-heading{
+    text-align: center;
+}
+
+.events-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 160px;
+    /* background-color: var(--cool-gray); */
+    border: 1px black;
+    filter: grayscale(1);
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.events-img img{
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+}
+
+.events-img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+    z-index: 5;
+}
+
+.events-container-2{
+    margin: 20px 0px 0px 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.events-img-container-1{
+    display: flex;
+}
+
+.events-img-container-2{
+    display: flex;
+}
+
+.image-item{
+    aspect-ratio: 16/9;
+    object-fit: contain;
+}
